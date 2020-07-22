@@ -1,0 +1,8 @@
+<suite name="Login Demo">
+       <test name="login Module1">
+        <classes>
+         <!--   <class name="TestNgDataDrivenFramework.MultiUserLogin"/>-->
+            <class name="TestNgDataDrivenFramework.HWDataProvider1"/>
+        </classes>
+    </test>
+</suite>
