@@ -1,0 +1,14 @@
+<suite name="Login Demo">
+    <test name="login Module">
+        <parameter name="browser" value="edge"/>
+      <!--  <parameter name="url" value="http://billing.scriptinglogic.net"/>-->
+        <parameter name="url" value="http://ip2.scriptinglogic.net"/>
+        <classes>
+          <!--  <class name="parameter.LoginFirst"/>
+            <class name="parameter.LoginSecond"/>
+            <class name="parameter.LoginThird"/>
+            <class name="parameter.LoginMultiBrouserUnsingParameter"/>-->
+            <class name="parameter.LoginMultiURLUsingParameter"/>
+        </classes>
+    </test>
+</suite>

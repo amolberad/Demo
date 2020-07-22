@@ -1,0 +1,18 @@
+<suite name="Project Demo3">
+    <test name="Module111">
+        <groups>
+            <run>
+                <exclude name="email"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNgDemo.testngxml.ClassOne"/>
+        </classes>
+    </test>
+    <test name="Module112">
+        <classes>
+            <class name="TestNgDemo.testngxml.ClassTwo"/>
+            <class name="TestNgDemo.testngxml.ClassThree"/>
+        </classes>
+    </test>
+</suite>
